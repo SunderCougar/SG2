@@ -1,0 +1,352 @@
+[
+  {
+    "id": 16,
+    "exam": "Core 1",
+    "domain": "Mobile Devices",
+    "question": "Which mobile device component measures acceleration and is used to detect screen rotation?",
+    "options": [
+      "GPS",
+      "Gyroscope",
+      "Accelerometer",
+      "Digitizer"
+    ],
+    "answer": "Accelerometer",
+    "explanation": "The accelerometer is a sensor that detects motion and the pull of gravity, which allows the device to change its screen orientation."
+  },
+  {
+    "id": 17,
+    "exam": "Core 1",
+    "domain": "Mobile Devices",
+    "question": "A user wants to share their phone's internet connection with their laptop via a USB cable. What is this feature called?",
+    "options": [
+      "NFC",
+      "Mobile Hotspot",
+      "Bluetooth Pairing",
+      "USB Tethering"
+    ],
+    "answer": "USB Tethering",
+    "explanation": "Tethering is the process of sharing a mobile device's internet connection. When done over a USB cable, it is specifically called USB tethering."
+  },
+  {
+    "id": 18,
+    "exam": "Core 1",
+    "domain": "Networking",
+    "question": "Which network cable type provides the best protection against crosstalk and electromagnetic interference (EMI)?",
+    "options": [
+      "UTP",
+      "STP",
+      "Coaxial",
+      "Fiber Optic"
+    ],
+    "answer": "STP",
+    "explanation": "STP (Shielded Twisted Pair) includes a metallic foil shield around the twisted pairs, which provides better protection against interference than UTP (Unshielded Twisted Pair)."
+  },
+  {
+    "id": 19,
+    "exam": "Core 1",
+    "domain": "Networking",
+    "question": "What is the primary purpose of a DNS server?",
+    "options": [
+      "To automatically assign IP addresses to devices.",
+      "To translate domain names into IP addresses.",
+      "To store and forward email messages.",
+      "To provide secure, remote access to a network."
+    ],
+    "answer": "To translate domain names into IP addresses.",
+    "explanation": "DNS (Domain Name System) acts like the internet's phonebook, allowing users to access websites using human-readable names (e.g., google.com) instead of IP addresses."
+  },
+  {
+    "id": 20,
+    "exam": "Core 1",
+    "domain": "Hardware",
+    "question": "Which type of computer memory is volatile, meaning its contents are lost when the computer powers off?",
+    "options": [
+      "SSD",
+      "ROM",
+      "RAM",
+      "CMOS"
+    ],
+    "answer": "RAM",
+    "explanation": "RAM (Random Access Memory) is volatile memory used by the system to hold currently running programs and data. SSD and ROM are non-volatile."
+  },
+  {
+    "id": 21,
+    "exam": "Core 1",
+    "domain": "Hardware",
+    "question": "In laser printing, what is the function of the fuser assembly?",
+    "options": [
+      "It transfers the toner from the drum to the paper.",
+      "It melts the toner onto the paper.",
+      "It cleans the drum of excess toner.",
+      "It charges the paper to attract toner."
+    ],
+    "answer": "It melts the toner onto the paper.",
+    "explanation": "The fuser uses heat and pressure to permanently bond the loose toner powder to the paper fibers."
+  },
+  {
+    "id": 22,
+    "exam": "Core 1",
+    "domain": "Virtualization and Cloud Computing",
+    "question": "What is a Type 1 hypervisor?",
+    "options": [
+      "A hypervisor that runs on top of a host operating system.",
+      "A hypervisor that runs directly on the server hardware.",
+      "A hypervisor used exclusively for cloud computing.",
+      "A hypervisor that can only run one virtual machine."
+    ],
+    "answer": "A hypervisor that runs directly on the server hardware.",
+    "explanation": "A Type 1 hypervisor, also known as a 'bare-metal' hypervisor, runs directly on the host's hardware for better performance and stability (e.g., VMware ESXi, Microsoft Hyper-V Server)."
+  },
+  {
+    "id": 23,
+    "exam": "Core 1",
+    "domain": "Hardware and Network Troubleshooting",
+    "question": "A technician uses the `ipconfig` command and sees no default gateway address listed. What is the most likely symptom the user would report?",
+    "options": [
+      "They cannot print to a local printer.",
+      "They cannot access the internet.",
+      "Their computer is running very slowly.",
+      "They cannot save files to their local drive."
+    ],
+    "answer": "They cannot access the internet.",
+    "explanation": "The default gateway is the router address used to send traffic outside of the local network. Without it, a computer cannot communicate with the internet."
+  },
+  {
+    "id": 24,
+    "exam": "Core 2",
+    "domain": "Operating Systems",
+    "question": "In Linux, which command is used to show the contents of a directory?",
+    "options": [
+      "dir",
+      "show",
+      "list",
+      "ls"
+    ],
+    "answer": "ls",
+    "explanation": "The `ls` (list) command is used in Linux and macOS to list the files and directories in the current working directory."
+  },
+  {
+    "id": 25,
+    "exam": "Core 2",
+    "domain": "Operating Systems",
+    "question": "A user needs to end a non-responsive application in Windows. Which utility provides the most direct way to do this?",
+    "options": [
+      "Event Viewer",
+      "Task Manager",
+      "Services.msc",
+      "Disk Management"
+    ],
+    "answer": "Task Manager",
+    "explanation": "Task Manager allows users to view running processes and applications and use the 'End Task' function to forcefully close ones that are not responding."
+  },
+  {
+    "id": 26,
+    "exam": "Core 2",
+    "domain": "Security",
+    "question": "A user finds that all their files have been encrypted and a message demands payment to unlock them. This is characteristic of what type of malware?",
+    "options": [
+      "Spyware",
+      "A worm",
+      "Ransomware",
+      "A Trojan"
+    ],
+    "answer": "Ransomware",
+    "explanation": "Ransomware is malicious software that encrypts a victim's files and demands a ransom payment in exchange for the decryption key."
+  },
+  {
+    "id": 27,
+    "exam": "Core 2",
+    "domain": "Security",
+    "question": "What is the purpose of a firewall?",
+    "options": [
+      "To encrypt files on a hard drive.",
+      "To scan for and remove viruses.",
+      "To monitor and control network traffic.",
+      "To manage user passwords."
+    ],
+    "answer": "To monitor and control network traffic.",
+    "explanation": "A firewall acts as a barrier, filtering incoming and outgoing network traffic based on a set of security rules to protect a trusted internal network from untrusted outside networks."
+  },
+  {
+    "id": 28,
+    "exam": "Core 2",
+    "domain": "Software Troubleshooting",
+    "question": "After a recent Windows update, a specific hardware device has stopped working. What utility can be used to revert its driver to the previous version?",
+    "options": [
+      "System Restore",
+      "Device Manager",
+      "msconfig",
+      "Windows Update"
+    ],
+    "answer": "Device Manager",
+    "explanation": "Device Manager allows you to manage hardware devices. From a device's properties, you can select the 'Roll Back Driver' option to revert to the previously installed driver."
+  },
+  {
+    "id": 29,
+    "exam": "Core 2",
+    "domain": "Operational Procedures",
+    "question": "What does the term 'chain of custody' refer to in a forensic context?",
+    "options": [
+      "The order in which a technician performs troubleshooting steps.",
+      "The documented log of evidence handling and possession.",
+      "The escalation path for customer complaints.",
+      "The lifecycle of an IT asset from purchase to disposal."
+    ],
+    "answer": "The documented log of evidence handling and possession.",
+    "explanation": "Chain of custody is a chronological paper trail that shows the seizure, custody, control, transfer, and disposition of evidence to ensure it has not been tampered with."
+  },
+  {
+    "id": 30,
+    "exam": "Core 1",
+    "domain": "Hardware",
+    "question": "What is the purpose of thermal paste applied between a CPU and a heat sink?",
+    "options": [
+      "To act as an adhesive.",
+      "To provide electrical insulation.",
+      "To fill microscopic air gaps and improve heat transfer.",
+      "To lower the CPU's voltage."
+    ],
+    "answer": "To fill microscopic air gaps and improve heat transfer.",
+    "explanation": "Even smooth metal surfaces have microscopic imperfections. Thermal paste is a thermally conductive compound that fills these gaps to ensure an efficient transfer of heat from the CPU to the heat sink."
+  },
+  {
+    "id": 31,
+    "exam": "Core 1",
+    "domain": "Networking",
+    "question": "Which technology allows a single Ethernet cable to provide both data and electrical power to a device like a VoIP phone?",
+    "options": [
+      "DHCP",
+      "AC/DC",
+      "PoE",
+      "PLC"
+    ],
+    "answer": "PoE",
+    "explanation": "PoE (Power over Ethernet) is a technology that enables network cables to carry electrical power, eliminating the need for a separate power adapter for certain devices."
+  },
+  {
+    "id": 32,
+    "exam": "Core 2",
+    "domain": "Security",
+    "question": "What physical security measure can be used to prevent the theft of a laptop from a public workspace?",
+    "options": [
+      "A firewall",
+      "Encryption",
+      "A strong password",
+      "A cable lock"
+    ],
+    "answer": "A cable lock",
+    "explanation": "A cable lock physically secures a laptop or other device to a stationary object like a desk, preventing it from being easily stolen."
+  },
+  {
+    "id": 33,
+    "exam": "Core 2",
+    "domain": "Operating Systems",
+    "question": "What is the primary function of the `chkdsk` command in Windows?",
+    "options": [
+      "To check network connectivity.",
+      "To check for and repair file system and disk errors.",
+      "To change the user's password.",
+      "To check the version of the operating system."
+    ],
+    "answer": "To check for and repair file system and disk errors.",
+    "explanation": "The `chkdsk` (Check Disk) utility scans a disk for logical file system errors and physical bad sectors and attempts to fix any problems it finds."
+  },
+  {
+    "id": 34,
+    "exam": "Core 1",
+    "domain": "Hardware",
+    "question": "Which RAID level stripes data across multiple drives for performance but provides no redundancy or fault tolerance?",
+    "options": [
+      "RAID 0",
+      "RAID 1",
+      "RAID 5",
+      "RAID 10"
+    ],
+    "answer": "RAID 0",
+    "explanation": "RAID 0 (striping) focuses solely on performance by writing data across multiple drives simultaneously. If any single drive fails, all data is lost."
+  },
+  {
+    "id": 35,
+    "exam": "Core 2",
+    "domain": "Software Troubleshooting",
+    "question": "A user reports that pop-up windows are appearing on their screen even when their web browser is closed. What is this a symptom of?",
+    "options": [
+      "A browser hijacker",
+      "A phishing attack",
+      "Adware installed on the operating system",
+      "A faulty display driver"
+    ],
+    "answer": "Adware installed on the operating system",
+    "explanation": "If ads appear when the browser is closed, it indicates the malicious software is running as a process on the OS itself, not just as a browser extension."
+  },
+  {
+    "id": 36,
+    "exam": "Core 1",
+    "domain": "Networking",
+    "question": "A technician needs to connect a new office building to an existing one across the street. Which cable type would be BEST for this purpose, providing high speed and immunity to EMI?",
+    "options": [
+      "Cat 5e",
+      "Cat 6a",
+      "Coaxial",
+      "Fiber optic"
+    ],
+    "answer": "Fiber optic",
+    "explanation": "Fiber optic cable is ideal for connecting separate buildings as it supports very high speeds over long distances and is completely immune to electromagnetic interference from power lines or other sources."
+  },
+  {
+    "id": 37,
+    "exam": "Core 2",
+    "domain": "Operating Systems",
+    "question": "What is the purpose of the `bootrec /fixmbr` command in the Windows Recovery Environment?",
+    "options": [
+      "It rebuilds the boot configuration data.",
+      "It writes a new Master Boot Record to the system partition.",
+      "It fixes errors on the disk.",
+      "It restores the registry from a backup."
+    ],
+    "answer": "It writes a new Master Boot Record to the system partition.",
+    "explanation": "This command is used to repair a corrupt or damaged Master Boot Record (MBR), which is a common cause of boot failure."
+  },
+  {
+    "id": 38,
+    "exam": "Core 1",
+    "domain": "Hardware",
+    "question": "A technician is installing new RAM. The motherboard has four slots, colored blue, black, blue, black. To enable dual-channel mode with two modules, how should they be installed?",
+    "options": [
+      "In the two leftmost slots (blue, black).",
+      "In the two rightmost slots (blue, black).",
+      "In the two blue slots.",
+      "In the two black slots."
+    ],
+    "answer": "In the two blue slots.",
+    "explanation": "Motherboards use color coding to indicate which slots belong to which memory channel. To enable dual-channel mode, modules must be installed in matching color slots."
+  },
+  {
+    "id": 39,
+    "exam": "Core 2",
+    "domain": "Security",
+    "question": "Which of the following represents the strongest form of wireless network encryption?",
+    "options": [
+      "WEP",
+      "WPA",
+      "WPA2",
+      "WPS"
+    ],
+    "answer": "WPA2",
+    "explanation": "WPA2 (Wi-Fi Protected Access 2) using AES encryption is the standard for strong wireless security. WEP and WPA are older and have known vulnerabilities. WPS is a setup method, not an encryption protocol."
+  },
+  {
+    "id": 40,
+    "exam": "Core 1",
+    "domain": "Mobile Devices",
+    "question": "A user wants to synchronize their email, calendar, and contacts from a service like Google or iCloud. Which type of email account setup should they choose on their phone?",
+    "options": [
+      "POP3",
+      "IMAP",
+      "SMTP",
+      "Microsoft Exchange"
+    ],
+    "answer": "Microsoft Exchange",
+    "explanation": "While IMAP handles email synchronization, protocols like Microsoft Exchange (or ActiveSync) are designed to seamlessly sync email, contacts, and calendars together, which is what most modern services use."
+  }
+]
